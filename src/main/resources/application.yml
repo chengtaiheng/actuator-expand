@@ -1,0 +1,19 @@
+server:
+  port: 1667
+
+management:
+  endpoint:
+    shutdown:
+      enabled: true
+    health:
+      show-details: always
+  endpoints:
+    web:
+      base-path: "/actuator"
+      exposure:
+        include: "*"
+
+
+
+
+
